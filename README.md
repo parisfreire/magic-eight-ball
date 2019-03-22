@@ -15,10 +15,12 @@ The front-end app will be running at [http://localhost:8080](http://localhost:80
 Manual deployment
 ---------------
 
-You can run by hand the front-end application deploying it on a Apache/Nginx copying the files under the **magic-eight-ball-frontend/build** directory.
+You can run by hand the front-end application deploying it on a Apache/Nginx copying the files under the following directory:
+
+ **magic-eight-ball-frontend/build** 
 
 The back-end app can be deployed running a simple Java jar.
 
 ```
-java -jar **magic-eight-ball-backend/build/libs/magic-eight-ball-backend-0.1.war**
+java -jar magic-eight-ball-backend/build/libs/magic-eight-ball-backend-0.1.war
 ```
