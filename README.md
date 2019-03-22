@@ -21,6 +21,8 @@ You can run by hand the front-end application deploying it on a Apache/Nginx cop
 
 The back-end app can be deployed running a simple Java jar.
 
+Run in this directory:
 ```
-java -jar magic-eight-ball-backend/build/libs/magic-eight-ball-backend-0.1.war
+cd magic-eight-ball-backend
+java -jar build/libs/magic-eight-ball-backend-0.1.war
 ```
