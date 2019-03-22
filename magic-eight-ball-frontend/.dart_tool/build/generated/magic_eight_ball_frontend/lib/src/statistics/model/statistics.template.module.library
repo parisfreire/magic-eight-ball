@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["magic_eight_ball_frontend|lib/src/statistics/model/statistics.dart","json_annotation|lib/json_annotation.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}

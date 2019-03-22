@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["test|lib/bootstrap/vm.dart","magic_eight_ball_frontend|test/app_test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["isolate"]}

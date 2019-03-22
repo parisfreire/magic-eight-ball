@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["angular|lib/angular.dart","angular_components|lib/scorecard/scorecard.dart","magic_eight_ball_frontend|lib/src/statistics/model/statistics.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}

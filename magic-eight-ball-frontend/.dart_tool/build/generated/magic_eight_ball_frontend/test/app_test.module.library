@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["angular_test|lib/angular_test.dart","test|lib/test.dart","magic_eight_ball_frontend|lib/app_component.dart","magic_eight_ball_frontend|lib/app_component.template.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["angular|lib/angular.dart","magic_eight_ball_frontend|lib/src/game/game_component.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}

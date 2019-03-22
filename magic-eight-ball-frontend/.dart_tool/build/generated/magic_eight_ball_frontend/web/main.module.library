@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["angular|lib/angular.dart","http|lib/http.dart","http|lib/browser_client.dart","magic_eight_ball_frontend|lib/app_component.template.dart","magic_eight_ball_frontend|web/main.template.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}
