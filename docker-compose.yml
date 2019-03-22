@@ -1,0 +1,12 @@
+version: "3"
+services:
+  backend:
+    build: magic-eight-ball-backend
+    # image: magic-eight-ball-backend:dockerfile
+    ports:
+      - "8090:8090"
+  frontend:
+    build: magic-eight-ball-frontend
+    # image: magic-eight-ball-frontend:dockerfile
+    ports:
+      - "8080:8080"    

@@ -1,0 +1,21 @@
+<!-- Material tabs: iterating over tabLabels value-->
+<material-tab-strip label="" (tabChange)="onTabChange($event)" [tabLabels]="tabLabels"> </material-tab-strip>
+<br>   
+<!-- Game section -->
+<section *ngIf="tabIndex == 0">
+        <material-input floatingLabel type="text" label="Introduce your question" [(ngModel)]="question"></material-input>
+        <br>
+        <div class="eight-ball">
+           <div class="answer">
+                <p *ngIf="game.response.isEmpty" id="eight">8</p>
+                <p *ngIf="!game.response.isEmpty" id="answer">{{game.response}}</p>
+            </div>
+        </div>
+        <br>
+        <material-button raised id="submitButton" (click)="submitQuestion()">Submit</material-button>
+</section>
+<!-- Statistics section -->
+<section *ngIf="tabIndex == 1">
+        <!-- Statistics component , statistics object as a param -->
+        <statistics [statistics]="statistics"></statistics>
+</section>

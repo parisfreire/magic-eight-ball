@@ -1,0 +1,10 @@
+ /* Overriding the acx-scorecard text color */
+ .green{
+    color:#0f9d58;
+  }
+  .red{
+    color:#db4437;
+  }
+  .orange{
+    color:#ff9800;
+  }

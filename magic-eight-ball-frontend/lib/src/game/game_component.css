@@ -1,0 +1,57 @@
+  section{
+    text-align: center;
+  }
+
+  /* 8ball styles */
+  div.eight-ball {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  div.answer {
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
+  }
+  
+  p#eight {
+    font-size: 5em;
+    margin: 20% auto;
+    color: white;
+  }
+  
+  p#answer {
+    padding: 25px;
+    color: lightblue;
+    letter-spacing: 2px;
+  }
+
+/* Shaking animation */
+
+  .shaking {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1s; 
+    /* Animation only executes one time */
+    animation-iteration-count: one; 
+  }
+  /* Rotating the ball*/
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-50deg); }
+    20% { transform: translate(-3px, 0px) rotate(50deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(50deg); }
+    50% { transform: translate(-1px, 2px) rotate(-50deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-50deg); }
+    80% { transform: translate(-1px, -1px) rotate(50deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-50deg); }
+  }
